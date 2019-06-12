@@ -1,11 +1,7 @@
 header {
  background-color: red;
-}     
-
-h1, 
-a {
  color: #fff;
-}
+}     
 
 h1 {
  font-size: 40px;
@@ -16,4 +12,5 @@ a {
  text-decoration: none; 
  font-size: 21px;
  font-family: SegoeUI;
+ color: inherit;
 }
