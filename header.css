@@ -9,9 +9,11 @@ a {
 
 h1 {
  font-size: 40px;
+ font-family: ArialMT;
 }
 
 a {
  text-decoration: none; 
  font-size: 21px;
+ font-family: SegoeUI;
 }
