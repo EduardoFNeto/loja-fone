@@ -1,4 +1,4 @@
-.button {
+.button-store {
  display: inline-block;
  font-size: 20px;
  color: #fff;
@@ -9,4 +9,5 @@
  text-align: center;
  line-height: 60px;
  text-decoration: none;
+ margin-right: 0;
 }
