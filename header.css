@@ -1,11 +1,21 @@
 header {
  background-color: red;
  color: #fff;
+ top: 0;
+ overflow: hidden;
+ margin: 0 115px 0;
+ padding: 55px 60px 95px;
+
 }     
 
 h1 {
  font-size: 40px;
  font-family: ArialMT;
+ float: left;
+}
+
+nav {
+ float: right;
 }
 
 a {
