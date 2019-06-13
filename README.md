@@ -26,3 +26,12 @@ Permite alteração de altura e largura(width/height);
 Alinhamento central:
 
 - Caso o elemento tenha apenas uma linha, ex = Buttons, é só colocar o line height do tamanho da caixa
+
+Position absolute:
+
+- Cria um novo contexto = o float;
+- O que define o width e o height é a altura do conteúdo;
+
+- Vem com as props - top/left e/ou left/right;
+
+- top, bottom, left e right movem o elemento em relação a pág;
