@@ -35,3 +35,5 @@ Position absolute:
 - Vem com as props - top/left e/ou left/right;
 
 - top, bottom, left e right movem o elemento em relação a pág;
+
+Vertical-align: só funciona com display inline-block
