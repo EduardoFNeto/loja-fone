@@ -11,6 +11,7 @@
  line-height: 60px;
  text-decoration: none;
  margin-right: 0;
+ border: none;
 }
 
 .button-store.-second {
@@ -18,4 +19,14 @@
  border: 2px solid #fff;
  line-height: 56px;
  width: 218px;
+ margin-right: 38px;
+ }
+
+ .button-store > button,
+ .button-store > a {
+  font-size: inherit;
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  text-decoration: inherit;
  }
