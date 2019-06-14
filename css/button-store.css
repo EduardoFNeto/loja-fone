@@ -14,6 +14,9 @@
  border: none;
 }
 
+.button-store:hover {
+ cursor: pointer;
+}
 .button-store.-second {
  background-color: transparent;
  border: 2px solid #fff;
