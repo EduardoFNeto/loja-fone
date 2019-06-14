@@ -18,11 +18,22 @@
 
 .header-store > .navigation {
  font-size: 21px;
- font-family: SegoeUI;
+ font-family: SegoeUI, sans-serif;
  color: #fff;
  float: right;
 }
 
+.header-store [type="search"] {
+ background: transparent;
+ border: none;
+ border-bottom: 1px solid #fff;
+ color: #fff;
+ font-family: Arial, sans-serif;
+ font-size: 20px;
+ padding: 8px;
+ width: 358px;
+ margin-right: 65px;
+}
 
 .header-store .action {
  color: inherit;

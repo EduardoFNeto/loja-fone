@@ -7,7 +7,7 @@
 
 .description-product > .title {
  font-size: 25px;
- margin-bottom: 100px;
+ margin-bottom: 50px;
 
 }
 
@@ -16,6 +16,13 @@
  margin-bottom: 28px;
 }
 
+.description-product > .item.-star {
+ margin-bottom: 10px;
+}
+
+.description-product > .item.-star + .item {
+ margin-left: 7px;
+}
 .description-product > .item.-info {
  width: 300px;
  font-size: 20px;
@@ -26,6 +33,7 @@
  margin-bottom: 78px;
 }
 
+
 .description-product .contrast {
  text-transform: uppercase;
  float: left;
@@ -35,6 +43,10 @@
  font-size: 18px;
  line-height: 30px;
  margin-bottom: 30px;
+}
+
+.description-product > .text.-more {
+ margin-bottom: 0;
 }
 
 .description-product .action {
