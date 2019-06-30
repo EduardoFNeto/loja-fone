@@ -12,11 +12,22 @@
  text-decoration: none;
  margin-right: 0;
  border: none;
+ transition: all 300ms linear;
 }
 
 .button-store:hover {
  cursor: pointer;
+ background-color: #fff;
+ color: #252c41;
+ transform: scale(1.1);
 }
+
+.button-store.-second:hover {
+ cursor: pointer;
+ background-color: #fff;
+ color: red;
+}
+
 .button-store.-second {
  background-color: transparent;
  border: 2px solid #fff;
@@ -24,7 +35,7 @@
  width: 218px;
  margin-right: 38px;
  }
-
+ 
  .button-store > button,
  .button-store > a {
   font-size: inherit;
