@@ -10,3 +10,9 @@
  bottom: 0;
  transform: translateY( calc(100% + 98px) );
 }
+
+@media (max-width: 1310px) {
+ .wrapper-product {
+  width: 100%;
+ }
+}
