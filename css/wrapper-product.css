@@ -15,4 +15,12 @@
  .wrapper-product {
   width: 100%;
  }
+
+.wrapper-product > .buttons {
+ position: static;
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+ transform: none;
+ }
 }

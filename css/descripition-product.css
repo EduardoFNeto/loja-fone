@@ -1,14 +1,13 @@
 .description-product {
  font-family: "Roboto", sans-serif;
  color: #fff;
- display: inline-block;
+ display: block;
  width: 554px;
 }
 
 .description-product > .title {
  font-size: 25px;
  margin-bottom: 50px;
-
 }
 
 .description-product > .item {
@@ -72,11 +71,30 @@
 
 @media (max-width: 1310px) {
  .description-product {
-  width: 100%;
+  width: 50%;
+  min-width: 655px;
+  margin: 0 auto 60px;
+ }
+
+ .description-product > .item.-star {
+  float: left;
+  margin-right: 20px;
+ }
+
+ .description-product > .item.-number {
+  padding-top: 4px;
  }
  
+
  .description-product > .title {
   font-size: 35px;
   text-align: center;
+ }
+}
+
+@media (max-width: 720px) {
+ .description-product {
+  width: 90%;
+  min-width: auto;
  }
 }
