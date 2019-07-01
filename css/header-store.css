@@ -67,12 +67,7 @@
  margin-right: 0;
 }
 
-@media (max-width: 1310px) {
- .header-store {
-  padding-right: 60px;
- }
-}
-
+    
 @media (max-width: 1235px) {
  .header-store > .title {
   float: none;
