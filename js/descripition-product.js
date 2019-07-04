@@ -1,10 +1,13 @@
-const $heart = window.document.querySelector(".-heart");
+const $heart = document.querySelector(".-heart");
+const $stars = document.querySelectorAll(".star") //querySelector pega todos os elementos da pag, mas só seleciona um
 
 $heart.addEventListener("click", handleClick);
+$stars.forEach(function ($star)  {
+$star.addEventListener("click", handleClick); //segunda referencia é o index
+});
 
 function handleClick() {
-console.log("fé");
+ console.log("Colé");
+ this.classList.toggle("-active");
 }
 
-const $addButton = window.document.querySelector(".-second");
-$addButton.addEventListener("click", handleClick);

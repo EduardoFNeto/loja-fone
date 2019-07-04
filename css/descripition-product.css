@@ -22,6 +22,10 @@
  top: 8px;
 }
 
+.description-product > .item.-active {
+ background-color: #fff;
+}
+
 .description-product > .item.-star {
  margin-bottom: 10px;
  cursor: pointer;
@@ -33,6 +37,26 @@
 
 .description-product .icon:hover {
  transform: scale(1.2);
+}
+
+.description-product .item .icon.-active {
+ display: none;
+}
+
+.description-product .item.-active .icon.-active {
+ display: block;
+}
+
+.description-product .star {
+ display: inline-block;
+}
+
+.description-product .star.-active > .icon {
+ display: none;
+}
+
+.description-product .star.-active > .-active {
+ display: block;
 }
 
 .description-product > .item.-star + .item {
