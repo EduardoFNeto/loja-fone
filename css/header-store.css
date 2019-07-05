@@ -24,19 +24,6 @@
  float: right;
 }
 
-.header-store [type="search"] {
- background: transparent;
- border: none;
- border-bottom: 1px solid #fff;
- color: #fff;
- font-family: Arial, sans-serif;
- font-size: 20px;
- padding: 8px;
- width: 358px;
- margin-right: 65px;
- vertical-align: bottom;
-}
-
 .header-store .action {
  color: inherit;
  display: inline-block;
@@ -84,20 +71,6 @@
 @media (max-width: 970px) {
  .header-store {
   padding-left: 30px;
- }
- .header-store [type="search"] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-  color: black;
-  border-bottom-right-radius: 15px;
-  transform: translateX(-88%);
-  transition: transform 200ms cubic-bezier(.93,.49,.52,.51);
- }
-
- .header-store .-active[type="search"] {
-  transform: translateX(0);
  }
 }
 

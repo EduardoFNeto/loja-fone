@@ -1,4 +1,5 @@
-const $search = document.querySelector("[type=search]");
-$search.addEventListener("click", () => {
+const $search = document.querySelector(".input-search");
+$search.addEventListener("click", event => {
+ event.preventDefault()
  $search.classList.toggle("-active");
 });
