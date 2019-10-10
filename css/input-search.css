@@ -45,13 +45,17 @@
  }
 
  .input-search > .icon {
-  display: inline-block;
-  height: 40px;
+  display: none;
+  height: 41px;
   width: 40px;
   box-sizing: border-box;
   border-bottom-right-radius: 15px;
   padding: 8px;
   vertical-align: middle;
   background-color: #fff;
+ }
+
+ .input-search > .icon.-active {
+     display: inline-block;
  }
 } 

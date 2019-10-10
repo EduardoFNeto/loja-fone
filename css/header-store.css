@@ -115,3 +115,10 @@
   display: none;
  }
 }
+
+.header-store .new-logo {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin:0 auto 20px;
+}

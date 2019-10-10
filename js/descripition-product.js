@@ -1,5 +1,5 @@
 const $heart = document.querySelector(".-heart");
-const $stars = document.querySelectorAll(".star") //querySelector pega todos os elementos da pag, mas só seleciona um
+const $stars = document.querySelectorAll(".star") 
 const positionLast = $stars.length - 1;
 
 $heart.addEventListener("click", handleClick);
